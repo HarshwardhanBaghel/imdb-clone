@@ -264,7 +264,7 @@ function showPic(movie){
                     <div class="movie__releaseDate">${movie.original_language ? "Language : " + movie.original_language : ""}</div>
                 </div>
             <div class="movie__detailRightBottom">
-                <div class="synopsisText">Synopsis : </div>
+                <div class="synopsisText">Information : </div>
                 <div>${movie.overview ? movie.overview : ""}</div>
             </div>
             <div class="movie__links">
